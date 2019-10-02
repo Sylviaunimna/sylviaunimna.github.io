@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sylvia Unimna</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" <="" head="">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,400|Roboto:300" rel="stylesheet">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    
+</head>
+<body onload="jobs()">
+    <div class="panel-container">
+        <div class="side-panel">
+            <h1>
+                SYLVIA
+                <br>
+                UNIMNA
+            </h1>
+            <span class="side">
+                <a  href="https://github.com/Sylviaunimna"><i class="fab fa-github"></i></a>
+                <a  href="https://www.linkedin.com/in/sylvia-u/"><i class="fab fa-linkedin"></i></a>
+                <i class="fas fa-file"></i>
+            </span>
+        </div>
+        <div class="main-panel">
+            <div class="topnav">
+                <ul>
+                    <li><a href="#aboutme"> about me</a></li>
+                    <li><a href="#skills"> skills</a></li>
+                    <li><a href="#relex"> relevant experience</a></li>
+                    <li><a href="#proj"> projects</a></li>
+                    <li><a href="#"> contact</a></li>
+                </ul>
+            </div>
+            <a name="aboutme"></a>
+            <div class="panel-content onee">
+                <h2 class="first">about me</h2>
+                Hi, I'm <span>Sylvia</span>. A fourth-year computer science student at MUN with primary focus in Web Development and Code Design.
+                <br>
+                
+                The impact of technology on daily life has sparked my interest to pursue a career in software development and make an impact
+                <br>
+                I enjoy travelling, learning about new cultures (food especially <i class="fas fa-grin-tongue-wink"></i>) and listening to podcasts.
+            </div>
+            <img class="line" src="assets/line.png">
+            <a name="skills"></a>
+            <div class="panel-content skills">
+                <h2 class="second">skills</h2>
+                The following are technical skills which I have sufficient knowlege in. The order is by no means a measure of aptitude.
+
+                <ul class="skills-in">
+                    <ul title="Languages">
+                        <br>
+                        <li>JavaScript (ES6+)</li>
+                        <li>HTML & CSS</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                        <li>SQL</li>
+
+                    </ul>
+                    <ul title="Tools & Frameworks">
+                        <br>
+                        <li>Node.js</li>
+                        <li> Express</li>
+                        <li>PL/SQL</li>
+                        <li>Linux</li>
+                        <li>Docker</li>
+                        <li>Flask</li>
+                    </ul>
+                </ul>
+
+                In addition to the skills listed above, my time at Syncrude has introduced me to a variety of application testing. Infact, my co-op term project is developing Testing Strategies for the IT team at Syncrude.
+
+            </div>
+            <img class="line" src="assets/line.png">
+            <a name="relex"></a>
+            <div class="panel-content">
+                <h2 class="third">relevant experience</h2>
+                See my <a href="https://www.linkedin.com/in/sylvia-u/">LinkedIn</a> or Resume for the most up-to-date and detailed career experience.
+                <div class="wrapper">
+                    <div class="jobcontent">
+                        <div class="jobs jobcontent1">
+                            <br>
+                            <!-- <img src="assets/syncrude.png"> -->
+                            <div class="compname third"><h3> Syncrude Canada Ltd.</h3></div>
+                            <div class="title third"><h3>Junior Systems Analyst (co-op)</h3></div>
+                            <ul class="jobs">
+                                <li>Standardizing conference rooms across Syncrude using data provided by Site Services to reach the proper standard.</li>
+                                <li>Performing health checks on Syncrude Applications to provide business value of applications to stakeholders by the end of this quarter.</li>
+                                <li>Reducing number of PCs being handed out to contractors by testing new Virtual Environment before it gets rolled out in July.</li>
+                                <li>Handle highly sensitive and confidential materials.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <img class="line" src="assets/line.png">
+            <a name="proj"></a>
+            <div class="panel-content">
+                <h2 class="fourth">projects</h2>
+                These are some of the side projects i've been working on:
+                <br> 
+                <br>
+                <div class="project--container">
+                    <a href="https://github.com/Sylviaunimna/sylviaunimna.github.io" class="projects"> 
+                    <div class="project-c">
+                        <img src="assets/website.svg">
+                        <h3 class="pname"> My Portfolio Website</h3>
+                        <p class="desc"> Personal, minimalistic and functional website to showcase my portolio.</p>
+                        <span class="p-tag">
+                            HTML
+                        </span>
+                        <span class="p-tag">
+                                CSS
+                        </span>
+                        <span class="p-tag">
+                                JavaScript
+                        </span>
+                    </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function jobs() {
+            var jobItems = document.querySelectorAll(".jobs");
+            jobItems[0].classList.remove('hidden')
+           
+        }
+    </script>
+</body>
+</html>
